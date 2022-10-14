@@ -1,0 +1,14 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "no-bitwise": false,
+        "no-namespace": false,
+        "no-empty-interface": false,
+        "ban-types": false,
+        "max-classes-per-file": false,
+        "unified-signatures": false
+    }
+}
