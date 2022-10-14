@@ -1,16 +1,16 @@
-# @mtm-solutions/kotlin-stdlib-types
+# @mtm-solutions/kotlin-stdlib-wrapper
 
 ## Installation
 
 ```sh
-npm install --save @mtm-solutions/kotlin-stdlib-types
+npm install --save @mtm-solutions/kotlin-stdlib-wrapper
 ```
 
 ## Version and License
 
 - Latest version: 1.1.2
-- License: [MIT](https://mtm-solutions.github.io/kotlin-stdlib-types/LICENSE.md)
-- [Changes](https://mtm-solutions.github.io/kotlin-stdlib-types/CHANGES.md)
+- License: [MIT](https://mtm-solutions.github.io/kotlin-stdlib-wrapper/LICENSE.md)
+- [Changes](https://mtm-solutions.github.io/kotlin-stdlib-wrapper/CHANGES.md)
 
 ## Summary
 
@@ -52,7 +52,7 @@ List.get(index: number): E
 ## Usage Examples
 
 ```ts
-import {kotlin} from "@mtm-solutions/kotlin-stdlib-types";
+import {kotlin} from "@mtm-solutions/kotlin-stdlib-wrapper";
 
 // Kotlin collections: create a list.
 const elements = kotlin.collections.lisOf([1,2,3,4,5])
@@ -74,7 +74,7 @@ const squaresArray = squares.toArray()
 
 ## See Also
 
-- [API Documentation](https://mtm-solutions.github.io/kotlin-stdlib-types/docs/modules.html)
-- [Project Homepage](https://mtm-solutions.github.io/kotlin-stdlib-types)
-- [Project on GitHub](https://github.com/mtm-solutions/kotlin-stdlib-types)
-- [Issues](https://github.com/mtm-solutions/kotlin-stdlib-types/issues)
+- [API Documentation](https://mtm-solutions.github.io/kotlin-stdlib-wrapper/docs/modules.html)
+- [Project Homepage](https://mtm-solutions.github.io/kotlin-stdlib-wrapper)
+- [Project on GitHub](https://github.com/mtm-solutions/kotlin-stdlib-wrapper)
+- [Issues](https://github.com/mtm-solutions/kotlin-stdlib-wrapper/issues)

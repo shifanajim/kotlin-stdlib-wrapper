@@ -1,6 +1,6 @@
 {
     "name": "@mtm-solutions/kotlin-stdlib-wrapper",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "TypeScript definitions and function mapping for the Kotlin Standard Library",
     "main": "lib/index.js",
     "typings": "lib/stdlib.d.ts",
@@ -25,7 +25,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/mtm-solutions/kotlin-stdlib-types.git"
+        "url": "https://github.com/mtm-solutions/kotlin-stdlib-wrapper.git"
     },
     "files": [
         "lib/**/*",
@@ -44,9 +44,9 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/mtm-solutions/kotlin-stdlib-types/issues"
+        "url": "https://github.com/mtm-solutions/kotlin-stdlib-wrapper/issues"
     },
-    "homepage": "https://mtm-solutions.github.io/kotlin-stdlib-types",
+    "homepage": "https://mtm-solutions.github.io/kotlin-stdlib-wrapper",
     "devDependencies": {
         "@types/jasmine": "^3.6.9",
         "jasmine": "^3.7.0",
