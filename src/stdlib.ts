@@ -13,17 +13,17 @@ export declare namespace kotlin {
 
     type Array<T> = T[];
     type BooleanArray = boolean[];
-    type ByteArray = byte[];
-    type CharArray = char[];
-    type ShortArray = short[];
-    type IntArray = int[];
+   type ByteArray =Int8Array;
+    type CharArray = Uint16Array;
+    type ShortArray = Int16Array;
+    type IntArray = Int32Array;
     type LongArray = long[];
     type UByteArray = ubyte[];
     type UShortArray = ushort[];
     type UIntArray = uint[];
     type ULongArray = ulong[];
-    type FloatArray = float[];
-    type DoubleArray = double[];
+    type FloatArray = Float32Array;
+    type DoubleArray = Float64Array;
 
     function KotlinVersion(major: int, minor: int): KotlinVersion;
     function emptyArray<T>(): T[];
