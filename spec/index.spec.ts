@@ -1,4 +1,5 @@
-import { kotlin } from '../lib';
+import {kotlin} from "kotlin";
+
 
 describe('Test Suite', () => {
     const tests: [string, Function][] = [
@@ -471,10 +472,10 @@ describe('Test Suite', () => {
         expect(typeof list.subList).toBe('function');
 
         let i = 0;
-        for (let n of list) {
+        for (const n of list) {
             expect(n).toBe(list.get(i++));
         }
-        let a = list.toArray();
+        const a = list.toArray();
         expect(a.length).toBe(list.size);
         for (let i = 0; i++; i < list.size) {
             expect(a[i].toBe(list.get(i) + 5));
