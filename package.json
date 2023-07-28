@@ -1,6 +1,6 @@
 {
     "name": "@mtm-solutions/kotlin-stdlib-wrapper",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "TypeScript definitions and function mapping for the Kotlin Standard Library",
     "main": "lib/index.js",
     "typings": "lib/stdlib.d.ts",
